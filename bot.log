@@ -1,0 +1,419 @@
+2025-05-12 12:16:08,220 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:16:08,344 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:16:14,773 - aiogram.event - INFO - Update id=809985106 is handled. Duration 6375 ms by bot id=7509393981
+2025-05-12 12:17:23,952 - aiogram.event - INFO - Update id=809985107 is handled. Duration 6562 ms by bot id=7509393981
+2025-05-12 12:29:50,603 - aiogram.event - INFO - Update id=809985108 is handled. Duration 6312 ms by bot id=7509393981
+2025-05-12 12:29:56,377 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:29:56,636 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:30:00,917 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:30:01,028 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:30:08,738 - py.warnings - WARNING - C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py:131: RuntimeWarning: coroutine 'handle_media.<locals>.update_progress' was never awaited
+  return MESSAGES["processing_error"]
+
+2025-05-12 12:30:08,802 - aiogram.event - INFO - Update id=809985109 is handled. Duration 484 ms by bot id=7509393981
+2025-05-12 12:30:22,379 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:30:22,634 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:33:15,481 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:33:15,492 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:33:15,632 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:33:25,649 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMOaCG_iSNewxH7_9YRsW0ojdwa63wAAh5tAAIlPhBJMfUvCBdPV8g2BA.ogg
+2025-05-12 12:33:25,650 - transcriber - INFO - Processing audio file
+2025-05-12 12:33:25,653 - transcriber - ERROR - Error processing file: no running event loop
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 143, in process_file
+    progress_callback(0)
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 76, in <lambda>
+    progress_callback=lambda p: asyncio.create_task(update_progress(p))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 371, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+
+2025-05-12 12:33:25,653 - py.warnings - WARNING - C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py:154: RuntimeWarning: coroutine 'handle_media.<locals>.update_progress' was never awaited
+  return MESSAGES["processing_error"]
+
+2025-05-12 12:33:25,733 - aiogram.event - INFO - Update id=809985110 is handled. Duration 467 ms by bot id=7509393981
+2025-05-12 12:34:40,833 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:34:41,086 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:34:46,583 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:34:46,593 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:34:46,734 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:34:55,622 - __main__ - ERROR - Error processing file: 'Voice' object has no attribute 'file_name'
+2025-05-12 12:34:55,776 - aiogram.event - INFO - Update id=809985111 is handled. Duration 155 ms by bot id=7509393981
+2025-05-12 12:37:28,317 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:37:28,580 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:37:33,560 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:37:33,562 - __main__ - INFO - Бот запущен
+2025-05-12 12:37:33,563 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:37:33,715 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:37:58,688 - __main__ - ERROR - Error processing file: 'processing_start'
+2025-05-12 12:37:58,866 - aiogram.event - INFO - Update id=809985112 is handled. Duration 171 ms by bot id=7509393981
+2025-05-12 12:42:19,271 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:42:19,525 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:42:24,315 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:42:24,318 - __main__ - INFO - Бот запущен
+2025-05-12 12:42:24,318 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:42:24,452 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:42:55,413 - __main__ - ERROR - Error processing file: 'processing_start'
+2025-05-12 12:42:55,612 - aiogram.event - INFO - Update id=809985113 is handled. Duration 203 ms by bot id=7509393981
+2025-05-12 12:43:22,755 - __main__ - ERROR - Error processing file: 'processing_start'
+2025-05-12 12:43:22,884 - aiogram.event - INFO - Update id=809985114 is handled. Duration 125 ms by bot id=7509393981
+2025-05-12 12:46:26,753 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:46:27,006 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:46:33,186 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:46:33,188 - __main__ - INFO - Бот запущен
+2025-05-12 12:46:33,188 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:46:33,327 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:46:41,165 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg в temp\AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg
+2025-05-12 12:46:41,339 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg
+2025-05-12 12:46:41,340 - transcriber - INFO - Processing audio file
+2025-05-12 12:46:41,341 - py.warnings - WARNING - C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py:91: RuntimeWarning: coroutine 'update_progress' was never awaited
+  asyncio.get_event_loop()
+
+2025-05-12 12:46:41,343 - transcriber - ERROR - Error processing file: There is no current event loop in thread 'asyncio_0'.
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 143, in process_file
+    progress_callback(0)
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 91, in <lambda>
+    asyncio.get_event_loop()
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 677, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+RuntimeError: There is no current event loop in thread 'asyncio_0'.
+
+2025-05-12 12:46:41,402 - __main__ - INFO - Временный файл удален
+2025-05-12 12:46:41,403 - aiogram.event - INFO - Update id=809985115 is handled. Duration 389 ms by bot id=7509393981
+2025-05-12 12:47:54,357 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 12:47:54,608 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:47:59,452 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 12:47:59,454 - __main__ - INFO - Бот запущен
+2025-05-12 12:47:59,455 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 12:47:59,592 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 12:48:59,748 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg в temp\AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg
+2025-05-12 12:48:59,844 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg
+2025-05-12 12:48:59,845 - transcriber - INFO - Processing audio file
+2025-05-12 12:48:59,845 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMgaCHCvNcaWUJkRAEpuXyIycEnizYAAlBtAAIlPhBJO77Emwvbq7o2BA.ogg
+2025-05-12 12:49:00,725 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/886f928d-78a8-4553-a0bd-277ef86c6328
+2025-05-12 12:49:00,727 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/886f928d-78a8-4553-a0bd-277ef86c6328
+2025-05-12 12:49:00,728 - transcriber - INFO - Sending transcription request...
+2025-05-12 12:49:01,374 - transcriber - INFO - Transcription request sent. ID: b7736aa9-c4c7-4986-a143-0c51371ed100
+2025-05-12 12:49:01,374 - transcriber - INFO - Checking status for transcript b7736aa9-c4c7-4986-a143-0c51371ed100
+2025-05-12 12:49:02,265 - transcriber - INFO - Current status: processing
+2025-05-12 12:49:02,265 - transcriber - INFO - Transcription progress: 0%
+2025-05-12 12:49:05,268 - transcriber - INFO - Checking status for transcript b7736aa9-c4c7-4986-a143-0c51371ed100
+2025-05-12 12:49:05,951 - transcriber - INFO - Current status: completed
+2025-05-12 12:49:05,952 - transcriber - INFO - Transcription completed successfully
+2025-05-12 12:49:06,091 - __main__ - INFO - Временный файл удален
+2025-05-12 12:49:06,092 - aiogram.event - INFO - Update id=809985116 is handled. Duration 6577 ms by bot id=7509393981
+2025-05-12 12:49:40,416 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:40,502 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:40,502 - transcriber - INFO - Processing audio file
+2025-05-12 12:49:40,503 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:41,352 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/f98a7145-11eb-4cbd-9601-b5993c7fcb79
+2025-05-12 12:49:41,354 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/f98a7145-11eb-4cbd-9601-b5993c7fcb79
+2025-05-12 12:49:41,354 - transcriber - INFO - Sending transcription request...
+2025-05-12 12:49:42,098 - transcriber - INFO - Transcription request sent. ID: 7af8e49c-ed2c-483d-9397-1ebf6625dbb7
+2025-05-12 12:49:42,099 - transcriber - INFO - Checking status for transcript 7af8e49c-ed2c-483d-9397-1ebf6625dbb7
+2025-05-12 12:49:42,728 - transcriber - INFO - Current status: processing
+2025-05-12 12:49:42,729 - transcriber - INFO - Transcription progress: 0%
+2025-05-12 12:49:45,731 - transcriber - INFO - Checking status for transcript 7af8e49c-ed2c-483d-9397-1ebf6625dbb7
+2025-05-12 12:49:46,430 - transcriber - INFO - Current status: completed
+2025-05-12 12:49:46,432 - transcriber - INFO - Transcription completed successfully
+2025-05-12 12:49:46,597 - __main__ - INFO - Временный файл удален
+2025-05-12 12:49:46,598 - aiogram.event - INFO - Update id=809985117 is handled. Duration 6390 ms by bot id=7509393981
+2025-05-12 12:49:57,894 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:58,001 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:58,002 - transcriber - INFO - Processing audio file
+2025-05-12 12:49:58,003 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 12:49:58,847 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/be409b1c-6ca0-4875-b029-b1a50405e5fb
+2025-05-12 12:49:58,849 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/be409b1c-6ca0-4875-b029-b1a50405e5fb
+2025-05-12 12:49:58,850 - transcriber - INFO - Sending transcription request...
+2025-05-12 12:49:59,499 - transcriber - INFO - Transcription request sent. ID: 4a7d674b-cc7a-4e21-9a4a-1becc56af3be
+2025-05-12 12:49:59,499 - transcriber - INFO - Checking status for transcript 4a7d674b-cc7a-4e21-9a4a-1becc56af3be
+2025-05-12 12:50:00,108 - transcriber - INFO - Current status: processing
+2025-05-12 12:50:00,109 - transcriber - INFO - Transcription progress: 0%
+2025-05-12 12:50:03,110 - transcriber - INFO - Checking status for transcript 4a7d674b-cc7a-4e21-9a4a-1becc56af3be
+2025-05-12 12:50:03,765 - transcriber - INFO - Current status: completed
+2025-05-12 12:50:03,765 - transcriber - INFO - Transcription completed successfully
+2025-05-12 12:50:03,935 - __main__ - INFO - Временный файл удален
+2025-05-12 12:50:03,936 - aiogram.event - INFO - Update id=809985118 is handled. Duration 6125 ms by bot id=7509393981
+2025-05-12 13:11:18,463 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:11:18,559 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:11:18,559 - transcriber - INFO - Processing audio file
+2025-05-12 13:11:18,559 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:11:19,444 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/b8a7611b-6dd5-41a7-bffc-3dad6a15c380
+2025-05-12 13:11:19,449 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/b8a7611b-6dd5-41a7-bffc-3dad6a15c380
+2025-05-12 13:11:19,451 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:11:20,121 - transcriber - INFO - Transcription request sent. ID: d4ae0eda-a7f8-4990-ab10-8694504f7703
+2025-05-12 13:11:20,122 - transcriber - INFO - Checking status for transcript d4ae0eda-a7f8-4990-ab10-8694504f7703
+2025-05-12 13:11:20,749 - transcriber - INFO - Current status: processing
+2025-05-12 13:11:20,749 - transcriber - INFO - Transcription progress: 0%
+2025-05-12 13:11:23,750 - transcriber - INFO - Checking status for transcript d4ae0eda-a7f8-4990-ab10-8694504f7703
+2025-05-12 13:11:24,415 - transcriber - INFO - Current status: completed
+2025-05-12 13:11:24,415 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:11:24,547 - __main__ - INFO - Временный файл удален
+2025-05-12 13:11:24,547 - aiogram.event - INFO - Update id=809985119 is handled. Duration 6233 ms by bot id=7509393981
+2025-05-12 13:15:31,314 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-12 13:15:31,316 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7509393981)
+2025-05-12 13:15:42,456 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7509393981)
+2025-05-12 13:16:13,274 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:16:13,541 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:16:18,509 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:16:18,511 - __main__ - INFO - Бот запущен
+2025-05-12 13:16:18,511 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:16:18,645 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:16:28,612 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:16:28,712 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:16:28,712 - transcriber - INFO - Processing audio file
+2025-05-12 13:16:28,713 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:16:29,624 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/e4c8bf9a-3ed7-486e-9349-1ef602884308
+2025-05-12 13:16:29,626 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/e4c8bf9a-3ed7-486e-9349-1ef602884308
+2025-05-12 13:16:29,628 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:16:30,270 - transcriber - INFO - Transcription request sent. ID: b3e44d94-8aaf-4002-a546-adc25e337d11
+2025-05-12 13:16:30,271 - transcriber - INFO - Checking status for transcript b3e44d94-8aaf-4002-a546-adc25e337d11
+2025-05-12 13:16:30,893 - transcriber - INFO - Current status: processing
+2025-05-12 13:16:30,894 - transcriber - INFO - Transcription progress: 20%
+2025-05-12 13:16:30,947 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-12 13:16:33,895 - transcriber - INFO - Checking status for transcript b3e44d94-8aaf-4002-a546-adc25e337d11
+2025-05-12 13:16:34,606 - transcriber - INFO - Current status: completed
+2025-05-12 13:16:34,607 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:16:34,895 - __main__ - INFO - Временный файл удален
+2025-05-12 13:16:34,897 - aiogram.event - INFO - Update id=809985120 is handled. Duration 6452 ms by bot id=7509393981
+2025-05-12 13:18:53,787 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:18:54,049 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:18:58,393 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:18:58,395 - __main__ - INFO - Бот запущен
+2025-05-12 13:18:58,395 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:18:58,539 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:19:04,905 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:19:05,009 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:19:05,010 - transcriber - INFO - Processing audio file
+2025-05-12 13:19:05,011 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:19:05,888 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/3194c44a-b0de-4df6-8f07-2e30eca19d54
+2025-05-12 13:19:05,890 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/3194c44a-b0de-4df6-8f07-2e30eca19d54
+2025-05-12 13:19:05,892 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:19:06,556 - transcriber - INFO - Transcription request sent. ID: 52721956-89b6-4e32-9238-ece65e1ba048
+2025-05-12 13:19:06,558 - transcriber - INFO - Checking status for transcript 52721956-89b6-4e32-9238-ece65e1ba048
+2025-05-12 13:19:06,607 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-12 13:19:07,193 - transcriber - INFO - Current status: processing
+2025-05-12 13:19:10,194 - transcriber - INFO - Checking status for transcript 52721956-89b6-4e32-9238-ece65e1ba048
+2025-05-12 13:19:10,860 - transcriber - INFO - Current status: completed
+2025-05-12 13:19:10,860 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:19:11,039 - __main__ - INFO - Временный файл удален
+2025-05-12 13:19:11,040 - aiogram.event - INFO - Update id=809985121 is handled. Duration 6375 ms by bot id=7509393981
+2025-05-12 13:20:54,524 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:20:54,788 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:21:00,342 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:21:00,348 - __main__ - INFO - Бот запущен
+2025-05-12 13:21:00,348 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:21:00,480 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:21:10,551 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:21:10,694 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:21:10,695 - transcriber - INFO - Processing audio file
+2025-05-12 13:21:10,695 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:21:11,573 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/d6bf2619-49c4-47d3-9642-ae905cf93fcf
+2025-05-12 13:21:11,577 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/d6bf2619-49c4-47d3-9642-ae905cf93fcf
+2025-05-12 13:21:11,577 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:21:12,225 - transcriber - INFO - Transcription request sent. ID: 87fac4ee-cf23-4a43-8729-d416d5e4f20f
+2025-05-12 13:21:12,226 - transcriber - INFO - Checking status for transcript 87fac4ee-cf23-4a43-8729-d416d5e4f20f
+2025-05-12 13:21:12,419 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-12 13:21:12,856 - transcriber - INFO - Current status: processing
+2025-05-12 13:21:15,857 - transcriber - INFO - Checking status for transcript 87fac4ee-cf23-4a43-8729-d416d5e4f20f
+2025-05-12 13:21:16,558 - transcriber - INFO - Current status: completed
+2025-05-12 13:21:16,559 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:21:16,859 - __main__ - INFO - Временный файл удален
+2025-05-12 13:21:16,861 - aiogram.event - INFO - Update id=809985122 is handled. Duration 6469 ms by bot id=7509393981
+2025-05-12 13:28:18,187 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:28:18,442 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:36:51,552 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:36:51,554 - __main__ - INFO - Бот запущен
+2025-05-12 13:36:51,554 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:36:51,696 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:37:01,723 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:37:01,822 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:37:01,822 - transcriber - INFO - Processing audio file
+2025-05-12 13:37:01,823 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:37:02,704 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/5195db20-fac1-4706-80dd-0bbf566da7bc
+2025-05-12 13:37:02,707 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/5195db20-fac1-4706-80dd-0bbf566da7bc
+2025-05-12 13:37:02,708 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:37:03,350 - transcriber - INFO - Transcription request sent. ID: 704d7fba-e211-4acf-94e9-eac60d29d399
+2025-05-12 13:37:03,351 - transcriber - INFO - Checking status for transcript 704d7fba-e211-4acf-94e9-eac60d29d399
+2025-05-12 13:37:03,431 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-12 13:37:03,971 - transcriber - INFO - Current status: processing
+2025-05-12 13:37:06,973 - transcriber - INFO - Checking status for transcript 704d7fba-e211-4acf-94e9-eac60d29d399
+2025-05-12 13:37:07,640 - transcriber - INFO - Current status: completed
+2025-05-12 13:37:07,640 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:37:08,047 - __main__ - INFO - Временный файл удален
+2025-05-12 13:37:08,048 - aiogram.event - INFO - Update id=809985123 is handled. Duration 6500 ms by bot id=7509393981
+2025-05-12 13:39:05,752 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:39:06,018 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:39:10,636 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:39:10,645 - __main__ - INFO - Бот запущен
+2025-05-12 13:39:10,645 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:39:10,784 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:39:18,161 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:39:18,267 - transcriber - INFO - Processing file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:39:18,268 - transcriber - INFO - Processing audio file
+2025-05-12 13:39:18,268 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 13:39:19,142 - transcriber - INFO - File uploaded successfully. URL: https://cdn.assemblyai.com/upload/0771ab79-d55f-4267-b9d1-4095d9157676
+2025-05-12 13:39:19,144 - transcriber - INFO - Starting transcription for URL: https://cdn.assemblyai.com/upload/0771ab79-d55f-4267-b9d1-4095d9157676
+2025-05-12 13:39:19,145 - transcriber - INFO - Sending transcription request...
+2025-05-12 13:39:19,783 - transcriber - INFO - Transcription request sent. ID: 29ea95dd-292c-4cc6-bd82-f88b394c3d1b
+2025-05-12 13:39:19,784 - transcriber - INFO - Checking status for transcript 29ea95dd-292c-4cc6-bd82-f88b394c3d1b
+2025-05-12 13:39:19,828 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-12 13:39:20,413 - transcriber - INFO - Current status: processing
+2025-05-12 13:39:23,414 - transcriber - INFO - Checking status for transcript 29ea95dd-292c-4cc6-bd82-f88b394c3d1b
+2025-05-12 13:39:24,080 - transcriber - INFO - Current status: completed
+2025-05-12 13:39:24,081 - transcriber - INFO - Transcription completed successfully
+2025-05-12 13:39:24,443 - __main__ - INFO - Временный файл удален
+2025-05-12 13:39:24,443 - aiogram.event - INFO - Update id=809985124 is handled. Duration 6531 ms by bot id=7509393981
+2025-05-12 13:43:44,284 - aiogram.event - INFO - Update id=809985125 is handled. Duration 155 ms by bot id=7509393981
+2025-05-12 13:49:16,485 - aiogram.event - INFO - Update id=809985126 is handled. Duration 203 ms by bot id=7509393981
+2025-05-12 13:49:29,995 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:49:30,257 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:49:35,175 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:49:35,178 - __main__ - INFO - Бот запущен
+2025-05-12 13:49:35,178 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:49:35,312 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:49:40,803 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4 в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 13:49:40,836 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+2025-05-12 13:49:40,888 - aiogram.event - INFO - Update id=809985127 is handled. Duration 219 ms by bot id=7509393981
+2025-05-12 13:50:26,765 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:50:27,021 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:50:31,751 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:50:31,754 - __main__ - INFO - Бот запущен
+2025-05-12 13:50:31,754 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:50:31,896 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:50:36,073 - __main__ - ERROR - Error processing file: cannot access local variable 'file_path' where it is not associated with a value
+2025-05-12 13:50:36,248 - aiogram.event - INFO - Update id=809985128 is handled. Duration 391 ms by bot id=7509393981
+2025-05-12 13:51:19,191 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:51:19,456 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:51:24,139 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:51:24,144 - __main__ - INFO - Бот запущен
+2025-05-12 13:51:24,144 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:51:24,280 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:51:29,673 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+2025-05-12 13:51:29,726 - aiogram.event - INFO - Update id=809985129 is handled. Duration 233 ms by bot id=7509393981
+2025-05-12 13:52:08,255 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 13:52:08,510 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:52:12,170 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 13:52:12,172 - __main__ - INFO - Бот запущен
+2025-05-12 13:52:12,172 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 13:52:12,304 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 13:52:18,574 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 13:52:18,574 - __main__ - ERROR - Error processing file: 'Message' object has no attribute 'download'
+2025-05-12 13:52:18,652 - aiogram.event - INFO - Update id=809985130 is handled. Duration 296 ms by bot id=7509393981
+2025-05-12 14:02:49,462 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:02:49,719 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:02:54,673 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:02:54,674 - __main__ - INFO - Бот запущен
+2025-05-12 14:02:54,675 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:02:54,849 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:03:05,290 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 14:03:05,292 - __main__ - ERROR - Error processing file: 'Message' object has no attribute 'download'
+2025-05-12 14:03:05,376 - aiogram.event - INFO - Update id=809985131 is handled. Duration 282 ms by bot id=7509393981
+2025-05-12 14:05:22,757 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:05:22,758 - __main__ - ERROR - Error processing file: 'Message' object has no attribute 'download'
+2025-05-12 14:05:22,823 - aiogram.event - INFO - Update id=809985132 is handled. Duration 234 ms by bot id=7509393981
+2025-05-12 14:06:27,305 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:06:27,558 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:06:31,619 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:06:31,623 - __main__ - INFO - Бот запущен
+2025-05-12 14:06:31,623 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:06:31,771 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:06:39,375 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:06:39,375 - __main__ - ERROR - Error processing file: 'Message' object has no attribute 'download'
+2025-05-12 14:06:39,514 - aiogram.event - INFO - Update id=809985133 is handled. Duration 328 ms by bot id=7509393981
+2025-05-12 14:06:59,996 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 14:06:59,997 - __main__ - ERROR - Error processing file: 'Message' object has no attribute 'download'
+2025-05-12 14:07:00,067 - aiogram.event - INFO - Update id=809985134 is handled. Duration 219 ms by bot id=7509393981
+2025-05-12 14:09:45,954 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:09:46,218 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:09:49,838 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:09:49,840 - __main__ - INFO - Бот запущен
+2025-05-12 14:09:49,840 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:09:49,988 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:10:00,999 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:10:01,001 - __main__ - ERROR - Error processing file: 'Voice' object has no attribute 'download'
+2025-05-12 14:10:01,067 - aiogram.event - INFO - Update id=809985135 is handled. Duration 250 ms by bot id=7509393981
+2025-05-12 14:10:14,103 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 14:10:14,103 - __main__ - ERROR - Error processing file: 'Video' object has no attribute 'download'
+2025-05-12 14:10:14,180 - aiogram.event - INFO - Update id=809985136 is handled. Duration 157 ms by bot id=7509393981
+2025-05-12 14:12:13,141 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:12:13,398 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:12:17,664 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:12:17,666 - __main__ - INFO - Бот запущен
+2025-05-12 14:12:17,666 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:12:17,817 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:12:27,771 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:12:27,886 - __main__ - ERROR - Error processing file: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=<coroutine object Transcr...e at 0x000001CB3A0EB520>, input_type=coroutine]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+2025-05-12 14:12:27,969 - __main__ - INFO - Временный файл удален
+2025-05-12 14:12:27,977 - aiogram.event - INFO - Update id=809985137 is handled. Duration 342 ms by bot id=7509393981
+2025-05-12 14:12:39,427 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 14:12:39,460 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+2025-05-12 14:12:39,545 - aiogram.event - INFO - Update id=809985138 is handled. Duration 171 ms by bot id=7509393981
+2025-05-12 14:14:52,233 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:14:52,485 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:14:56,207 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:14:56,209 - __main__ - INFO - Бот запущен
+2025-05-12 14:14:56,209 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:15:00,974 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:15:07,893 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:15:08,070 - __main__ - INFO - Временный файл удален
+2025-05-12 14:15:08,070 - aiogram.event - INFO - Update id=809985139 is handled. Duration 328 ms by bot id=7509393981
+2025-05-12 14:15:43,931 - __main__ - INFO - Скачивание файла BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA в temp\BAACAgIAAxkBAANAaCHQ4S5G0bcShZZW_C9cbttLqgQAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-12 14:15:43,968 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+2025-05-12 14:15:44,169 - aiogram.event - INFO - Update id=809985140 is handled. Duration 500 ms by bot id=7509393981
+2025-05-12 14:19:01,138 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:19:01,389 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:19:05,364 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:19:05,366 - __main__ - INFO - Бот запущен
+2025-05-12 14:19:05,366 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:19:05,513 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:19:24,265 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:19:24,364 - __main__ - ERROR - Error processing file: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=<coroutine object Transcr...e at 0x000001E124A37400>, input_type=coroutine]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+2025-05-12 14:19:24,434 - __main__ - INFO - Временный файл удален
+2025-05-12 14:19:24,438 - aiogram.event - INFO - Update id=809985141 is handled. Duration 359 ms by bot id=7509393981
+2025-05-12 14:21:12,324 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:21:12,577 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:21:19,028 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:21:19,032 - __main__ - INFO - Бот запущен
+2025-05-12 14:21:19,032 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:21:19,165 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:21:36,161 - __main__ - INFO - Скачивание файла AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA в temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:21:36,370 - __main__ - INFO - Временный файл удален
+2025-05-12 14:21:36,370 - aiogram.event - INFO - Update id=809985142 is handled. Duration 406 ms by bot id=7509393981
+2025-05-12 14:31:13,500 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:31:13,767 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:35:53,619 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:35:53,621 - __main__ - INFO - Bot started
+2025-05-12 14:35:53,621 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:35:53,758 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:36:08,396 - aiogram.event - INFO - Update id=809985143 is handled. Duration 264 ms by bot id=7509393981
+2025-05-12 14:36:56,934 - aiogram.event - INFO - Update id=809985144 is handled. Duration 187 ms by bot id=7509393981
+2025-05-12 14:37:40,451 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-12 14:37:40,716 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:37:45,036 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:37:45,038 - __main__ - INFO - Bot started
+2025-05-12 14:37:45,038 - aiogram.dispatcher - INFO - Start polling
+2025-05-12 14:37:45,189 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-12 14:37:51,519 - __main__ - INFO - Downloading file AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:37:51,614 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-12 14:37:51,719 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAMKaCG8nuNn1yYJ-1RdYEatvl1fzO8AAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-12 14:37:51,719 - aiogram.event - INFO - Update id=809985145 is handled. Duration 390 ms by bot id=7509393981
+2025-05-13 13:40:46,455 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 13:40:46,464 - __main__ - INFO - Bot started
+2025-05-13 13:40:46,464 - aiogram.dispatcher - INFO - Start polling
+2025-05-13 13:40:46,785 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-13 13:40:57,203 - __main__ - INFO - Downloading file AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 13:40:57,280 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 13:40:57,415 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 13:40:57,417 - aiogram.event - INFO - Update id=809985146 is handled. Duration 407 ms by bot id=7509393981
+2025-05-13 13:46:11,387 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-13 13:46:11,708 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
