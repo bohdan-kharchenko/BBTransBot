@@ -417,3 +417,26 @@ text
 2025-05-13 13:40:57,417 - aiogram.event - INFO - Update id=809985146 is handled. Duration 407 ms by bot id=7509393981
 2025-05-13 13:46:11,387 - aiogram.dispatcher - INFO - Polling stopped
 2025-05-13 13:46:11,708 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-13 14:04:18,972 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 14:04:18,972 - __main__ - INFO - Bot started
+2025-05-13 14:04:18,972 - aiogram.dispatcher - INFO - Start polling
+2025-05-13 14:04:19,125 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-13 14:05:22,382 - __main__ - INFO - Downloading file AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 14:05:22,473 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 14:05:22,622 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 14:05:22,623 - aiogram.event - INFO - Update id=809985147 is handled. Duration 437 ms by bot id=7509393981
+2025-05-13 14:11:14,749 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-05-13 14:11:14,760 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7509393981)
+2025-05-13 14:11:25,908 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7509393981)
+2025-05-13 14:19:34,001 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-13 14:19:34,256 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-13 14:19:48,505 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 14:19:48,505 - __main__ - INFO - Bot started
+2025-05-13 14:19:48,505 - aiogram.dispatcher - INFO - Start polling
+2025-05-13 14:19:48,675 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-13 14:19:58,496 - __main__ - INFO - Downloading file AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 14:19:58,567 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-13 14:19:58,568 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-13 14:19:58,569 - __main__ - ERROR - Error updating progress: 'Transcriber' object has no attribute 'get_progress_bar'
+2025-05-13 14:19:58,684 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-13 14:19:58,685 - aiogram.event - INFO - Update id=809985148 is handled. Duration 375 ms by bot id=7509393981

@@ -34,8 +34,8 @@ SPEECH_RECOGNITION = {
 
 # Поддерживаемые форматы файлов
 SUPPORTED_FORMATS = {
-    "audio": [".mp3", ".wav", ".ogg", ".m4a", ".flac"],
-    "video": [".mp4", ".avi", ".mov", ".mkv", ".wmv"]
+    "audio": ["mp3", "wav", "ogg", "m4a", "flac"],
+    "video": ["mp4", "avi", "mov", "mkv", "wmv"]
 }
 
 # Настройки временных файлов
