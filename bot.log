@@ -1005,3 +1005,40 @@ Traceback (most recent call last):
     raise TelegramBadRequest(method=method, message=description)
 aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
 2025-05-20 22:26:43,833 - aiogram.event - INFO - Update id=809985171 is handled. Duration 296 ms by bot id=7509393981
+2025-05-20 22:52:10,281 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:52:10,537 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:52:19,289 - __main__ - INFO - Bot started
+2025-05-20 22:52:19,289 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:52:19,290 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:52:19,436 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:52:24,975 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 22:52:25,178 - __main__ - INFO - Preparing to download file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:52:25,179 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA
+2025-05-20 22:52:25,306 - __main__ - INFO - File downloaded successfully to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:52:25,306 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:52:25,307 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:52:25,308 - __main__ - INFO - Starting file processing
+2025-05-20 22:52:25,308 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:52:25,308 - transcriber - INFO - Processing audio file
+2025-05-20 22:52:30,323 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:52:30,324 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:52:30,325 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:52:30,325 - transcriber - INFO - Starting file upload
+2025-05-20 22:52:31,288 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/cdf236b8-37ca-460a-a9a5-1dcfbd989d43
+2025-05-20 22:52:36,290 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:52:36,290 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/cdf236b8-37ca-460a-a9a5-1dcfbd989d43
+2025-05-20 22:52:36,291 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:52:36,291 - transcriber - INFO - Creating transcript request
+2025-05-20 22:52:36,568 - transcriber - INFO - Got transcript ID: 9605d06e-343b-4538-a322-9536f5b1dd68
+2025-05-20 22:52:36,568 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:52:36,568 - transcriber - INFO - Checking status for transcript 9605d06e-343b-4538-a322-9536f5b1dd68
+2025-05-20 22:52:36,774 - transcriber - INFO - Transcript status: processing
+2025-05-20 22:52:39,782 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:52:39,782 - transcriber - INFO - Checking status for transcript 9605d06e-343b-4538-a322-9536f5b1dd68
+2025-05-20 22:52:40,014 - transcriber - INFO - Transcript status: completed
+2025-05-20 22:52:45,029 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:52:45,030 - __main__ - INFO - File processing completed
+2025-05-20 22:52:45,113 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:52:45,114 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:52:45,114 - aiogram.event - INFO - Update id=809985172 is handled. Duration 20141 ms by bot id=7509393981
+2025-05-20 22:53:30,160 - aiogram.event - INFO - Update id=809985173 is handled. Duration 140 ms by bot id=7509393981

@@ -97,7 +97,16 @@ async def handle_media(message: Message):
             is_video = False
             file_size = attachment.file_size
 
-        # Проверяем размер файла до скачивания
+        # Первичная проверка размера файла (50 МБ)
+        if file_size > 50 * 1024 * 1024:  # 50 МБ в байтах
+            return await message.reply(
+                "⚠️ Файл слишком большой для прямой загрузки через Telegram "
+                "(больше 50 МБ).\n"
+                "Пожалуйста, загрузите его на любой файлообменник "
+                "(Google Drive, Dropbox, Yandex.Disk и т.п.) и пришлите мне ссылку."
+            )
+
+        # Проверяем размер файла для транскрибации
         if file_size > MAX_FILE_SIZE:
             size_mb = file_size / (1024 * 1024)
             max_mb = MAX_FILE_SIZE / (1024 * 1024)
