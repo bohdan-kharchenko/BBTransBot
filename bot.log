@@ -440,3 +440,568 @@ text
 2025-05-13 14:19:58,569 - __main__ - ERROR - Error updating progress: 'Transcriber' object has no attribute 'get_progress_bar'
 2025-05-13 14:19:58,684 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAN7aCMhubeyovfW085cEyeyA7FfiUAAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
 2025-05-13 14:19:58,685 - aiogram.event - INFO - Update id=809985148 is handled. Duration 375 ms by bot id=7509393981
+2025-05-20 17:54:57,894 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 17:54:57,899 - __main__ - INFO - Bot started
+2025-05-20 17:54:57,899 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 17:54:58,097 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 17:56:39,108 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 17:56:39,329 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 17:56:39,331 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 17:56:39,449 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 17:56:39,449 - aiogram.event - INFO - Update id=809985149 is handled. Duration 530 ms by bot id=7509393981
+2025-05-20 17:59:38,893 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 17:59:39,155 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 17:59:44,297 - __main__ - INFO - Bot started
+2025-05-20 17:59:44,297 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 17:59:44,420 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 17:59:58,808 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 17:59:58,876 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 17:59:58,876 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 17:59:58,878 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 17:59:58,956 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 17:59:58,956 - aiogram.event - INFO - Update id=809985150 is handled. Duration 297 ms by bot id=7509393981
+2025-05-20 18:01:59,951 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 18:02:00,213 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:02:04,851 - __main__ - INFO - Bot started
+2025-05-20 18:02:04,852 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 18:02:04,990 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:03:11,856 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:03:11,947 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:03:16,949 - __main__ - ERROR - Error in progress callback: 
+2025-05-20 18:03:16,950 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 18:03:16,950 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:03:17,037 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:03:17,037 - aiogram.event - INFO - Update id=809985151 is handled. Duration 5390 ms by bot id=7509393981
+2025-05-20 18:04:45,082 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 18:04:45,344 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:04:49,877 - __main__ - INFO - Bot started
+2025-05-20 18:04:49,878 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:04:49,878 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 18:04:50,014 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:05:20,501 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:05:20,576 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:05:20,577 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 18:05:20,660 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:05:20,660 - aiogram.event - INFO - Update id=809985152 is handled. Duration 344 ms by bot id=7509393981
+2025-05-20 18:07:59,699 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 18:07:59,961 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:08:04,395 - __main__ - INFO - Bot started
+2025-05-20 18:08:04,396 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:08:04,396 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 18:08:04,531 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:08:23,941 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:08:24,005 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:08:24,005 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 18:08:24,143 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:08:24,143 - aiogram.event - INFO - Update id=809985153 is handled. Duration 422 ms by bot id=7509393981
+2025-05-20 18:10:08,045 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 18:10:08,311 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:58:53,566 - __main__ - INFO - Bot started
+2025-05-20 18:58:53,566 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:58:53,567 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 18:58:53,710 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 18:59:04,730 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:59:04,802 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 18:59:04,803 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 18:59:04,875 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 18:59:04,876 - aiogram.event - INFO - Update id=809985154 is handled. Duration 359 ms by bot id=7509393981
+2025-05-20 19:05:08,340 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:05:08,604 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:05:13,158 - __main__ - INFO - Bot started
+2025-05-20 19:05:13,159 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:05:13,159 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 19:05:13,291 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:05:15,399 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:05:15,488 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:05:15,488 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:05:15,489 - transcriber - INFO - Processing audio file
+2025-05-20 19:05:15,489 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+2025-05-20 19:05:15,595 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:05:15,596 - aiogram.event - INFO - Update id=809985155 is handled. Duration 406 ms by bot id=7509393981
+2025-05-20 19:06:33,622 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:06:33,876 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:06:39,172 - __main__ - INFO - Bot started
+2025-05-20 19:06:39,173 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:06:39,173 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 19:06:39,317 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:06:41,065 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 19:06:41,250 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:06:41,340 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 19:06:41,341 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:06:41,342 - __main__ - INFO - Starting file processing
+2025-05-20 19:06:41,343 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:06:41,343 - transcriber - INFO - Processing audio file
+2025-05-20 19:06:41,343 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 19:06:41,343 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 123, in handle_media
+    text = await transcriber.process_file(file_path, progress_cb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 240, in process_file
+    await callback(0)
+TypeError: object NoneType can't be used in 'await' expression
+2025-05-20 19:06:41,427 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:06:41,428 - aiogram.event - INFO - Update id=809985156 is handled. Duration 360 ms by bot id=7509393981
+2025-05-20 19:08:52,314 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:08:52,579 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:08:57,396 - __main__ - INFO - Bot started
+2025-05-20 19:08:57,397 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:08:57,397 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 19:08:57,540 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:09:02,475 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 19:09:02,702 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:09:02,792 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 19:09:02,792 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:09:02,793 - __main__ - INFO - Starting file processing
+2025-05-20 19:09:02,793 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:09:02,793 - transcriber - INFO - Processing audio file
+2025-05-20 19:09:02,793 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:09:02,794 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:09:02,794 - transcriber - INFO - Starting file upload
+2025-05-20 19:09:03,660 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/d54d7b88-083c-4176-b7db-eddd6d4bf3ad
+2025-05-20 19:09:03,660 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/d54d7b88-083c-4176-b7db-eddd6d4bf3ad
+2025-05-20 19:09:03,660 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:09:03,660 - transcriber - INFO - Creating transcript request
+2025-05-20 19:09:03,923 - transcriber - INFO - Got transcript ID: 3cb77cd6-fa88-4990-b200-c52065f65bb9
+2025-05-20 19:09:03,923 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:09:03,924 - transcriber - INFO - Checking status for transcript 3cb77cd6-fa88-4990-b200-c52065f65bb9
+2025-05-20 19:09:04,125 - __main__ - ERROR - Error updating progress: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-05-20 19:09:04,142 - transcriber - INFO - Transcript status: processing
+2025-05-20 19:09:07,148 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:09:07,149 - transcriber - INFO - Checking status for transcript 3cb77cd6-fa88-4990-b200-c52065f65bb9
+2025-05-20 19:09:07,382 - transcriber - INFO - Transcript status: completed
+2025-05-20 19:09:07,488 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 19:09:07,490 - __main__ - ERROR - Error processing file: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 123, in handle_media
+    text = await transcriber.process_file(file_path, progress_cb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 257, in process_file
+    return await self.transcribe_audio(url, callback, start_progress=20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 203, in transcribe_audio
+    await callback(100)
+TypeError: object NoneType can't be used in 'await' expression
+2025-05-20 19:09:07,576 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:09:07,577 - aiogram.event - INFO - Update id=809985157 is handled. Duration 5110 ms by bot id=7509393981
+2025-05-20 19:11:00,718 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:11:00,983 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:11:08,433 - __main__ - INFO - Bot started
+2025-05-20 19:11:08,433 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:11:08,433 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 19:11:08,562 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:11:09,927 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 19:11:10,095 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:11:10,176 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 19:11:10,176 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:11:10,177 - __main__ - INFO - Starting file processing
+2025-05-20 19:11:10,177 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:11:10,177 - transcriber - INFO - Processing audio file
+2025-05-20 19:11:15,179 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:11:15,179 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:11:15,179 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:11:15,180 - transcriber - INFO - Starting file upload
+2025-05-20 19:11:15,930 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/98911d0d-9d90-412c-832b-17c4db1c32bd
+2025-05-20 19:11:20,932 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:11:20,932 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/98911d0d-9d90-412c-832b-17c4db1c32bd
+2025-05-20 19:11:20,933 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:11:20,933 - transcriber - INFO - Creating transcript request
+2025-05-20 19:11:21,221 - transcriber - INFO - Got transcript ID: 53441d90-0dbe-47e2-b0a2-6ea765dac4af
+2025-05-20 19:11:21,221 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:11:21,222 - transcriber - INFO - Checking status for transcript 53441d90-0dbe-47e2-b0a2-6ea765dac4af
+2025-05-20 19:11:21,442 - transcriber - INFO - Transcript status: processing
+2025-05-20 19:11:24,447 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:11:24,447 - transcriber - INFO - Checking status for transcript 53441d90-0dbe-47e2-b0a2-6ea765dac4af
+2025-05-20 19:11:24,658 - transcriber - INFO - Transcript status: completed
+2025-05-20 19:11:29,662 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:11:29,662 - __main__ - INFO - File processing completed
+2025-05-20 19:11:29,701 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 19:11:29,703 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: message text is empty
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 130, in handle_media
+    await message.reply(text)
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message text is empty
+2025-05-20 19:11:29,932 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:11:29,932 - aiogram.event - INFO - Update id=809985158 is handled. Duration 20000 ms by bot id=7509393981
+2025-05-20 19:12:55,366 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:12:55,624 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:13:00,962 - __main__ - INFO - Bot started
+2025-05-20 19:13:00,962 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:13:00,963 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 19:13:01,122 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 19:13:02,208 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 19:13:02,425 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA to temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:13:02,503 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 19:13:02,503 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:13:02,504 - __main__ - INFO - Starting file processing
+2025-05-20 19:13:02,504 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:13:02,504 - transcriber - INFO - Processing audio file
+2025-05-20 19:13:07,513 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:13:07,513 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:13:07,514 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:13:07,514 - transcriber - INFO - Starting file upload
+2025-05-20 19:13:08,295 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/0f83cd65-226a-42f3-990d-6a3dbe2f25dd
+2025-05-20 19:13:13,297 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:13:13,297 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/0f83cd65-226a-42f3-990d-6a3dbe2f25dd
+2025-05-20 19:13:13,299 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:13:13,300 - transcriber - INFO - Creating transcript request
+2025-05-20 19:13:13,559 - transcriber - INFO - Got transcript ID: 067f3030-bae8-4471-8dfa-cfadb3b68fdf
+2025-05-20 19:13:13,559 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:13:13,560 - transcriber - INFO - Checking status for transcript 067f3030-bae8-4471-8dfa-cfadb3b68fdf
+2025-05-20 19:13:13,777 - transcriber - INFO - Transcript status: processing
+2025-05-20 19:13:16,795 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:13:16,795 - transcriber - INFO - Checking status for transcript 067f3030-bae8-4471-8dfa-cfadb3b68fdf
+2025-05-20 19:13:17,009 - transcriber - INFO - Transcript status: completed
+2025-05-20 19:13:22,011 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:13:22,011 - transcriber - ERROR - Transcription error: Получен пустой текст транскрипции
+2025-05-20 19:13:22,011 - __main__ - INFO - File processing completed
+2025-05-20 19:13:22,092 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 19:13:22,094 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOEaCyYKoPvq1ddC1r2VSeHZRSimBgAAhRsAALTmxhJu2PaK_LLZ6c2BA.ogg
+2025-05-20 19:13:22,095 - aiogram.event - INFO - Update id=809985159 is handled. Duration 19889 ms by bot id=7509393981
+2025-05-20 19:15:59,297 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 19:15:59,589 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 19:15:59,744 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 19:15:59,744 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 19:15:59,745 - __main__ - INFO - Starting file processing
+2025-05-20 19:15:59,745 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 19:15:59,745 - transcriber - INFO - Processing audio file
+2025-05-20 19:16:04,758 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:16:04,758 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 19:16:04,759 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:16:04,759 - transcriber - INFO - Starting file upload
+2025-05-20 19:16:05,653 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/f39c8c51-3fbc-468a-b8ec-07cf3464c4fd
+2025-05-20 19:16:10,669 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:16:10,669 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/f39c8c51-3fbc-468a-b8ec-07cf3464c4fd
+2025-05-20 19:16:10,669 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:16:10,669 - transcriber - INFO - Creating transcript request
+2025-05-20 19:16:10,935 - transcriber - INFO - Got transcript ID: 9cb0c126-b06e-468d-b86e-f25d4b34d552
+2025-05-20 19:16:10,935 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:16:10,936 - transcriber - INFO - Checking status for transcript 9cb0c126-b06e-468d-b86e-f25d4b34d552
+2025-05-20 19:16:11,152 - transcriber - INFO - Transcript status: processing
+2025-05-20 19:16:14,164 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 19:16:14,164 - transcriber - INFO - Checking status for transcript 9cb0c126-b06e-468d-b86e-f25d4b34d552
+2025-05-20 19:16:14,427 - transcriber - INFO - Transcript status: completed
+2025-05-20 19:16:19,436 - __main__ - WARNING - Progress update timeout
+2025-05-20 19:16:19,436 - __main__ - INFO - File processing completed
+2025-05-20 19:16:19,581 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 19:16:19,582 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 19:16:19,583 - aiogram.event - INFO - Update id=809985160 is handled. Duration 20281 ms by bot id=7509393981
+2025-05-20 19:16:29,611 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 19:16:29,879 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 21:36:01,344 - __main__ - INFO - Bot started
+2025-05-20 21:36:01,344 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 21:36:01,346 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 21:36:01,480 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 21:36:01,539 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 21:36:01,781 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 21:36:01,822 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 111, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 21:36:02,034 - aiogram.event - INFO - Update id=809985161 is handled. Duration 500 ms by bot id=7509393981
+2025-05-20 21:36:16,553 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 21:36:16,815 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 21:36:21,708 - __main__ - INFO - Bot started
+2025-05-20 21:36:21,709 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 21:36:21,709 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 21:36:21,829 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 21:36:27,421 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 21:36:27,609 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 21:36:27,655 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 111, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 21:36:27,746 - aiogram.event - INFO - Update id=809985162 is handled. Duration 328 ms by bot id=7509393981
+2025-05-20 22:18:57,194 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:18:57,453 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:19:02,663 - __main__ - INFO - Bot started
+2025-05-20 22:19:02,663 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:19:02,665 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:19:02,837 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:19:58,409 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 22:19:58,606 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:19:58,713 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:19:58,713 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:19:58,715 - __main__ - INFO - Starting file processing
+2025-05-20 22:19:58,715 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:19:58,715 - transcriber - INFO - Processing audio file
+2025-05-20 22:20:03,716 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:20:03,716 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:20:03,718 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:20:03,718 - transcriber - INFO - Starting file upload
+2025-05-20 22:20:04,772 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/f88b1412-836b-432e-9c7d-825b05421616
+2025-05-20 22:20:09,774 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:20:09,775 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/f88b1412-836b-432e-9c7d-825b05421616
+2025-05-20 22:20:09,775 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:20:09,776 - transcriber - INFO - Creating transcript request
+2025-05-20 22:20:10,047 - transcriber - INFO - Got transcript ID: 92a67074-ce3d-44ef-8393-bcb865f84026
+2025-05-20 22:20:10,048 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:20:10,048 - transcriber - INFO - Checking status for transcript 92a67074-ce3d-44ef-8393-bcb865f84026
+2025-05-20 22:20:10,260 - transcriber - INFO - Transcript status: queued
+2025-05-20 22:20:13,263 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:20:13,263 - transcriber - INFO - Checking status for transcript 92a67074-ce3d-44ef-8393-bcb865f84026
+2025-05-20 22:20:13,525 - transcriber - INFO - Transcript status: completed
+2025-05-20 22:20:18,529 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:20:18,529 - __main__ - INFO - File processing completed
+2025-05-20 22:20:18,618 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:20:18,619 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:20:18,620 - aiogram.event - INFO - Update id=809985163 is handled. Duration 20203 ms by bot id=7509393981
+2025-05-20 22:20:37,731 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 22:20:37,846 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 22:20:37,881 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 119, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 22:20:37,983 - aiogram.event - INFO - Update id=809985164 is handled. Duration 250 ms by bot id=7509393981
+2025-05-20 22:21:50,265 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:21:50,530 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:21:55,094 - __main__ - INFO - Bot started
+2025-05-20 22:21:55,095 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:21:55,095 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:21:55,213 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:22:02,033 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 22:22:02,200 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:22:02,201 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:22:02,201 - __main__ - INFO - Starting file processing
+2025-05-20 22:22:02,202 - __main__ - INFO - Extracting audio from video
+2025-05-20 22:22:02,279 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:22:02,279 - __main__ - ERROR - Error processing file: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 136, in handle_media
+    audio_path = await transcriber.extract_audio(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 63, in extract_audio
+    audio_path = os.path.splitext(video_path)[0] + '.mp3'
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 232, in splitext
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-05-20 22:22:02,404 - aiogram.event - INFO - Update id=809985165 is handled. Duration 359 ms by bot id=7509393981
+2025-05-20 22:22:28,958 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 22:22:29,103 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:22:29,103 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:22:29,105 - __main__ - INFO - Starting file processing
+2025-05-20 22:22:29,105 - transcriber - INFO - Starting process_file for None
+2025-05-20 22:22:29,105 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:22:29,105 - __main__ - ERROR - Error processing file: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 147, in handle_media
+    text = await transcriber.process_file(file_path, progress_cb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\transcriber.py", line 231, in process_file
+    ext = os.path.splitext(file_path)[1].lstrip('.')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 232, in splitext
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-05-20 22:22:29,213 - aiogram.event - INFO - Update id=809985166 is handled. Duration 250 ms by bot id=7509393981
+2025-05-20 22:23:33,678 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:23:33,935 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:23:40,444 - __main__ - INFO - Bot started
+2025-05-20 22:23:40,445 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:23:40,445 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:23:40,576 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:23:46,481 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 22:23:46,643 - __main__ - INFO - Preparing to download file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:23:46,643 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA
+2025-05-20 22:23:46,760 - __main__ - INFO - File downloaded successfully to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:23:46,762 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:23:46,762 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:23:46,762 - __main__ - INFO - Starting file processing
+2025-05-20 22:23:46,763 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:23:46,763 - transcriber - INFO - Processing audio file
+2025-05-20 22:23:51,775 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:23:51,775 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:23:51,775 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:23:51,775 - transcriber - INFO - Starting file upload
+2025-05-20 22:23:52,756 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/24def118-61e6-4799-bf3a-c5dc877a241b
+2025-05-20 22:23:57,760 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:23:57,761 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/24def118-61e6-4799-bf3a-c5dc877a241b
+2025-05-20 22:23:57,761 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:23:57,761 - transcriber - INFO - Creating transcript request
+2025-05-20 22:23:58,044 - transcriber - INFO - Got transcript ID: c0542550-dc00-4eec-b38b-469fb66bd6d9
+2025-05-20 22:23:58,044 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:23:58,045 - transcriber - INFO - Checking status for transcript c0542550-dc00-4eec-b38b-469fb66bd6d9
+2025-05-20 22:23:58,259 - transcriber - INFO - Transcript status: queued
+2025-05-20 22:24:01,269 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:24:01,269 - transcriber - INFO - Checking status for transcript c0542550-dc00-4eec-b38b-469fb66bd6d9
+2025-05-20 22:24:01,507 - transcriber - INFO - Transcript status: completed
+2025-05-20 22:24:06,524 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:24:06,525 - __main__ - INFO - File processing completed
+2025-05-20 22:24:06,746 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:24:06,747 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:24:06,748 - aiogram.event - INFO - Update id=809985167 is handled. Duration 20266 ms by bot id=7509393981
+2025-05-20 22:24:12,570 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 22:24:12,625 - __main__ - INFO - Preparing to download file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 22:24:12,625 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA
+2025-05-20 22:24:12,654 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 129, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 22:24:12,715 - aiogram.event - INFO - Update id=809985168 is handled. Duration 140 ms by bot id=7509393981
+2025-05-20 22:25:39,029 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:25:39,285 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:25:43,438 - __main__ - INFO - Bot started
+2025-05-20 22:25:43,439 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:25:43,439 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:25:43,564 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:25:47,858 - __main__ - INFO - Processing file with extension: ogg
+2025-05-20 22:25:48,043 - __main__ - INFO - Preparing to download file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:25:48,043 - __main__ - INFO - Downloading file AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA
+2025-05-20 22:25:48,177 - __main__ - INFO - File downloaded successfully to temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:25:48,177 - __main__ - INFO - Creating Transcriber instance
+2025-05-20 22:25:48,177 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:25:48,178 - __main__ - INFO - Starting file processing
+2025-05-20 22:25:48,178 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:25:48,178 - transcriber - INFO - Processing audio file
+2025-05-20 22:25:53,183 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:25:53,184 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:25:53,184 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:25:53,185 - transcriber - INFO - Starting file upload
+2025-05-20 22:25:54,252 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/1858fb90-2884-4490-a41d-04215b2253b5
+2025-05-20 22:25:59,253 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:25:59,253 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/1858fb90-2884-4490-a41d-04215b2253b5
+2025-05-20 22:25:59,255 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:25:59,255 - transcriber - INFO - Creating transcript request
+2025-05-20 22:25:59,525 - transcriber - INFO - Got transcript ID: 134908a2-a545-4be4-a542-b451b7a1d93d
+2025-05-20 22:25:59,525 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:25:59,526 - transcriber - INFO - Checking status for transcript 134908a2-a545-4be4-a542-b451b7a1d93d
+2025-05-20 22:25:59,734 - transcriber - INFO - Transcript status: processing
+2025-05-20 22:26:02,747 - transcriber - INFO - Attempt 1 of 3
+2025-05-20 22:26:02,747 - transcriber - INFO - Checking status for transcript 134908a2-a545-4be4-a542-b451b7a1d93d
+2025-05-20 22:26:02,983 - transcriber - INFO - Transcript status: completed
+2025-05-20 22:26:07,998 - __main__ - WARNING - Progress update timeout
+2025-05-20 22:26:07,998 - __main__ - INFO - File processing completed
+2025-05-20 22:26:08,125 - __main__ - INFO - Cleaning up Transcriber
+2025-05-20 22:26:08,127 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAOlaCyqw42f9HR1NMzN9FWtuqZwucMAAvlsAAIlPhBJP03vgzfxvU42BA.ogg
+2025-05-20 22:26:08,127 - aiogram.event - INFO - Update id=809985169 is handled. Duration 20282 ms by bot id=7509393981
+2025-05-20 22:26:12,675 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 22:26:12,744 - __main__ - INFO - Preparing to download file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 22:26:12,745 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA
+2025-05-20 22:26:12,786 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 140, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 22:26:12,884 - aiogram.event - INFO - Update id=809985170 is handled. Duration 203 ms by bot id=7509393981
+2025-05-20 22:26:33,778 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-20 22:26:34,035 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:26:38,564 - __main__ - INFO - Bot started
+2025-05-20 22:26:38,564 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-20 22:26:38,565 - aiogram.dispatcher - INFO - Start polling
+2025-05-20 22:26:38,674 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-20 22:26:43,540 - __main__ - INFO - Processing file with extension: mp4
+2025-05-20 22:26:43,685 - __main__ - INFO - Preparing to download file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA to temp\BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA.mp4
+2025-05-20 22:26:43,687 - __main__ - INFO - Downloading file BAACAgIAAxkBAAOoaCzLhxYdkFcFt3g_TNsEDqZssBYAAiVuAAIlPhBJNeo4zbUzNvg2BA
+2025-05-20 22:26:43,731 - __main__ - ERROR - Error processing file: Telegram server says - Bad Request: file is too big
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 140, in handle_media
+    file_info = await bot.get_file(attachment.file_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 1707, in get_file
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: file is too big
+2025-05-20 22:26:43,833 - aiogram.event - INFO - Update id=809985171 is handled. Duration 296 ms by bot id=7509393981
