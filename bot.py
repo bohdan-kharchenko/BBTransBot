@@ -2,6 +2,10 @@ import asyncio
 import logging
 import sys
 import os
+import re
+import aiohttp
+import tempfile
+from urllib.parse import urlparse, parse_qs, urljoin
 
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters.command import Command
@@ -29,6 +33,15 @@ dp = Dispatcher()
 # Создаем единый экземпляр Transcriber для прогресс-бара
 _progress_transcriber = None
 
+# Добавляем регулярное выражение для проверки URL
+URL_PATTERN = re.compile(
+    r'^(?:http|https)://'  # http:// или https://
+    r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|'  # домен
+    r'localhost|'  # localhost
+    r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})'  # IP
+    r'(?::\d+)?'  # порт
+    r'(?:/?|[/?]\S+)$', re.IGNORECASE)
+
 async def init_progress_transcriber():
     global _progress_transcriber
     if _progress_transcriber is None:
@@ -38,23 +51,86 @@ async def update_progress(chat_id: int, message_id: int, percentage: int, error_
     try:
         if _progress_transcriber is None:
             await init_progress_transcriber()
+        
+        # Ограничиваем процент в пределах 0-100
+        percentage = max(0, min(100, percentage))
+        
         bar = _progress_transcriber.get_progress_bar(percentage, error_message)
-        await bot.edit_message_text(chat_id=chat_id, message_id=message_id, text=bar)
+        try:
+            await bot.edit_message_text(chat_id=chat_id, message_id=message_id, text=bar)
+        except Exception as e:
+            if "message is not modified" not in str(e):
+                raise
     except Exception as e:
         logger.error(f"Error updating progress: {e}")
 
 def make_callback(chat_id: int, message_id: int, loop: asyncio.AbstractEventLoop):
+    last_update = 0
+    last_percentage = 0
+    start_time = None
+    upload_completed = False
+    transcription_completed = False
+    
+    async def update_progress_task():
+        nonlocal last_update, last_percentage, upload_completed, start_time, transcription_completed
+        while not transcription_completed:
+            current_time = asyncio.get_event_loop().time()
+            
+            if upload_completed and start_time is not None:
+                elapsed_time = current_time - start_time
+                time_based_progress = min(95, 12 + int(elapsed_time * 2))  # 2% в секунду от 12% до 95%
+                
+                if time_based_progress > last_percentage:
+                    try:
+                        await update_progress(chat_id, message_id, time_based_progress)
+                        last_percentage = time_based_progress
+                    except Exception as e:
+                        if "message is not modified" not in str(e):
+                            logger.error(f"Error in progress task: {e}")
+            
+            await asyncio.sleep(0.5)  # Обновляем каждые 0.5 секунды
+    
     def _cb(pct: int, err: str = None):
-        try:
-            future = asyncio.run_coroutine_threadsafe(
-                update_progress(chat_id, message_id, pct, err), loop
-            )
-            # Ждем завершения операции с таймаутом
-            future.result(timeout=5)
-        except asyncio.TimeoutError:
-            logger.warning("Progress update timeout")
-        except Exception as e:
-            logger.error(f"Error in progress callback: {e}")
+        nonlocal last_update, last_percentage, upload_completed, start_time, transcription_completed
+        current_time = asyncio.get_event_loop().time()
+        
+        # Если транскрибация завершена
+        if pct == 100:
+            transcription_completed = True
+            try:
+                future = asyncio.run_coroutine_threadsafe(
+                    update_progress(chat_id, message_id, 100, err), loop
+                )
+                future.result(timeout=3)
+            except Exception as e:
+                if "message is not modified" not in str(e):
+                    logger.error(f"Error in progress callback: {e}")
+            return
+        
+        # Инициализируем start_time при первом вызове
+        if start_time is None:
+            start_time = current_time
+        
+        # Если загрузка завершена, начинаем плавное увеличение
+        if pct >= 12 and not upload_completed:
+            upload_completed = True
+            start_time = current_time
+            # Запускаем задачу обновления прогресса
+            asyncio.run_coroutine_threadsafe(update_progress_task(), loop)
+        
+        # Обновляем прогресс до загрузки, но не показываем 0%
+        if not upload_completed and pct > 0:
+            try:
+                future = asyncio.run_coroutine_threadsafe(
+                    update_progress(chat_id, message_id, pct, err), loop
+                )
+                future.result(timeout=3)
+                last_update = current_time
+                last_percentage = pct
+            except Exception as e:
+                if "message is not modified" not in str(e):
+                    logger.error(f"Error in progress callback: {e}")
+    
     return _cb
 
 @dp.message(Command("start"))
@@ -138,7 +214,7 @@ async def handle_media(message: Message):
 
         # Сообщение о старте обработки
         status_msg = await message.reply(MESSAGES["processing_start"])
-
+        
         # Создаем путь к файлу
         file_path = os.path.join(TEMP_DIR, f"{attachment.file_id}.{ext}")
         logger.info(f"Preparing to download file {attachment.file_id} to {file_path}")
@@ -149,6 +225,9 @@ async def handle_media(message: Message):
             file_info = await bot.get_file(attachment.file_id)
             await bot.download_file(file_info.file_path, destination=file_path)
             logger.info(f"File downloaded successfully to {file_path}")
+            
+            # Обновляем прогресс после скачивания
+            await update_progress(message.chat.id, status_msg.message_id, 5)
 
             # Готовим колбэк прогресса
             loop = asyncio.get_event_loop()
@@ -161,13 +240,9 @@ async def handle_media(message: Message):
                 logger.info("Starting file processing")
                 if is_video:
                     logger.info("Extracting audio from video")
-                    # Обновляем прогресс
-                    await update_progress(message.chat.id, status_msg.message_id, 10)
                     # Извлекаем аудио из видео
                     audio_path = await transcriber.extract_audio(file_path)
                     logger.info(f"Audio extracted to {audio_path}")
-                    # Обновляем прогресс
-                    await update_progress(message.chat.id, status_msg.message_id, 20)
                     # Обрабатываем аудио
                     text = await transcriber.process_file(audio_path, progress_cb)
                     # Удаляем временный аудиофайл
@@ -178,12 +253,15 @@ async def handle_media(message: Message):
                     text = await transcriber.process_file(file_path, progress_cb)
                 
                 logger.info("File processing completed")
+                
                 # Проверяем текст перед отправкой
                 if not text or text.isspace():
                     await message.reply(MESSAGES["processing_error"] + "\n❌ Не удалось распознать текст")
                 else:
                     # Отправляем результат
                     await message.reply(text)
+                    # Показываем 100% после успешной отправки
+                    await update_progress(message.chat.id, status_msg.message_id, 100)
             finally:
                 logger.info("Cleaning up Transcriber")
                 await transcriber.__aexit__(None, None, None)
