@@ -7,6 +7,7 @@ load_dotenv()
 # Настройки бота
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
+GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
 # Настройки AssemblyAI
 ASSEMBLYAI_CONFIG = {
