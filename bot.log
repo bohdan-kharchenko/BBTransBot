@@ -2067,3 +2067,306 @@ UnboundLocalError: cannot access local variable 'start_time' where it is not ass
 2025-05-22 18:48:23,310 - aiogram.event - INFO - Update id=809985214 is handled. Duration 12141 ms by bot id=7509393981
 2025-05-22 18:54:07,257 - aiogram.dispatcher - INFO - Polling stopped
 2025-05-22 18:54:07,513 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:13:01,537 - __main__ - INFO - Bot started
+2025-05-23 18:13:01,537 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:13:01,538 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 18:13:01,717 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:13:09,012 - __main__ - INFO - Processing file with extension: ogg
+2025-05-23 18:13:09,190 - __main__ - INFO - Preparing to download file AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ to temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:13:09,191 - __main__ - INFO - Downloading file AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ
+2025-05-23 18:13:09,383 - __main__ - INFO - File downloaded successfully to temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:13:09,513 - __main__ - INFO - Creating Transcriber instance
+2025-05-23 18:13:09,514 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:13:09,514 - __main__ - INFO - Starting file processing
+2025-05-23 18:13:09,514 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:13:09,515 - transcriber - INFO - Processing audio file
+2025-05-23 18:13:09,515 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:13:09,516 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:13:09,516 - transcriber - INFO - Starting file upload
+2025-05-23 18:13:11,028 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/5b047e39-7117-49d6-b69e-02e533fbfef6
+2025-05-23 18:13:11,029 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/5b047e39-7117-49d6-b69e-02e533fbfef6
+2025-05-23 18:13:11,029 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:13:11,029 - transcriber - INFO - Creating transcript request
+2025-05-23 18:13:11,294 - transcriber - INFO - Got transcript ID: 2cac92c8-49d8-4e39-b13d-75d377ed6dba
+2025-05-23 18:13:11,295 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:13:11,295 - transcriber - INFO - Checking status for transcript 2cac92c8-49d8-4e39-b13d-75d377ed6dba
+2025-05-23 18:13:11,612 - transcriber - INFO - Transcript status: processing
+2025-05-23 18:13:14,613 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:13:14,613 - transcriber - INFO - Checking status for transcript 2cac92c8-49d8-4e39-b13d-75d377ed6dba
+2025-05-23 18:13:14,894 - transcriber - INFO - Transcript status: completed
+2025-05-23 18:13:17,901 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 18:13:17,902 - __main__ - INFO - File processing completed
+2025-05-23 18:13:18,098 - __main__ - INFO - Cleaning up Transcriber
+2025-05-23 18:13:18,099 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:13:18,100 - aiogram.event - INFO - Update id=809985215 is handled. Duration 9094 ms by bot id=7509393981
+2025-05-23 18:13:53,017 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 18:13:53,275 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:21:01,316 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:21:37,181 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:28:54,167 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:28:54,175 - __main__ - INFO - Bot started
+2025-05-23 18:28:54,175 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:28:54,175 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 18:28:54,336 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:29:01,052 - __main__ - INFO - Processing file with extension: ogg
+2025-05-23 18:29:01,221 - __main__ - INFO - Preparing to download file AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ to temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:29:01,222 - __main__ - INFO - Downloading file AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ
+2025-05-23 18:29:01,452 - __main__ - INFO - File downloaded successfully to temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:29:01,540 - __main__ - INFO - Creating Transcriber instance
+2025-05-23 18:29:01,540 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:29:01,540 - __main__ - INFO - Starting file processing
+2025-05-23 18:29:01,541 - transcriber - INFO - Starting process_file for temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:29:01,541 - transcriber - INFO - Processing audio file
+2025-05-23 18:29:01,541 - transcriber - INFO - Uploading file: temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:29:01,542 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:29:01,542 - transcriber - INFO - Starting file upload
+2025-05-23 18:29:03,034 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/38da5e94-3749-467a-a070-2f7e257af4e9
+2025-05-23 18:29:03,035 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/38da5e94-3749-467a-a070-2f7e257af4e9
+2025-05-23 18:29:03,035 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:29:03,035 - transcriber - INFO - Creating transcript request
+2025-05-23 18:29:03,331 - transcriber - INFO - Got transcript ID: bb489166-9f4f-41d2-9239-924c616b8162
+2025-05-23 18:29:03,331 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:29:03,332 - transcriber - INFO - Checking status for transcript bb489166-9f4f-41d2-9239-924c616b8162
+2025-05-23 18:29:03,548 - transcriber - INFO - Transcript status: queued
+2025-05-23 18:29:06,547 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 18:29:06,547 - transcriber - INFO - Checking status for transcript bb489166-9f4f-41d2-9239-924c616b8162
+2025-05-23 18:29:06,839 - transcriber - INFO - Transcript status: completed
+2025-05-23 18:29:09,850 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 18:29:09,850 - __main__ - INFO - File processing completed
+2025-05-23 18:29:10,057 - __main__ - INFO - Cleaning up Transcriber
+2025-05-23 18:29:10,059 - __main__ - INFO - Deleted temp file temp\AwACAgIAAxkBAAIBI2gvQcBMMNOuq3m8rCDzyS3PlBoOAAKOeAAC9-94Sc8SnpXSndNnNgQ.ogg
+2025-05-23 18:29:10,060 - aiogram.event - INFO - Update id=809985216 is handled. Duration 9015 ms by bot id=7509393981
+2025-05-23 18:32:17,979 - aiogram.event - INFO - Update id=809985217 is handled. Duration 170735 ms by bot id=7509393981
+2025-05-23 18:36:22,239 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 18:36:22,502 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:37:28,404 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:37:28,409 - __main__ - INFO - Bot started
+2025-05-23 18:37:28,410 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:37:28,410 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 18:37:28,570 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:40:32,138 - aiogram.event - INFO - Update id=809985218 is handled. Duration 169141 ms by bot id=7509393981
+2025-05-23 18:43:43,176 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 18:43:43,428 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:43:47,622 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:43:47,630 - __main__ - INFO - Bot started
+2025-05-23 18:43:47,630 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:43:47,630 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 18:43:47,764 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:43:55,061 - __main__ - INFO - User 1967556347 -> file_id 1GQYda5n0buUaWyVlLuQoZUjny_dJTm-Z
+2025-05-23 18:46:40,837 - __main__ - INFO - Downloaded 1GQYda5n0buUaWyVlLuQoZUjny_dJTm-Z (video/mp4) to memory, 136827903 bytes
+2025-05-23 18:46:41,024 - __main__ - INFO - Saved to temp\test.mp4
+2025-05-23 18:46:42,581 - __main__ - INFO - Audio extracted to temp\test.wav
+2025-05-23 18:46:42,784 - aiogram.event - INFO - Update id=809985219 is handled. Duration 167719 ms by bot id=7509393981
+2025-05-23 18:57:30,742 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 18:57:31,003 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 18:57:43,415 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 18:57:43,422 - __main__ - INFO - Bot started
+2025-05-23 18:57:43,422 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 18:57:43,422 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 18:57:43,581 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:00:38,482 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:00:40,409 - transcriber - INFO - Starting process_file for temp\test.mp3
+2025-05-23 19:00:40,410 - transcriber - INFO - Processing audio file
+2025-05-23 19:00:40,410 - transcriber - INFO - Uploading file: temp\test.mp3
+2025-05-23 19:00:40,410 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:00:40,410 - transcriber - INFO - Starting file upload
+2025-05-23 19:00:42,987 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/ff3fea30-9ef4-4847-85b2-dd3bb054fae1
+2025-05-23 19:00:42,987 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/ff3fea30-9ef4-4847-85b2-dd3bb054fae1
+2025-05-23 19:00:42,988 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:00:42,988 - transcriber - INFO - Creating transcript request
+2025-05-23 19:00:43,263 - transcriber - INFO - Got transcript ID: 8696806e-9f2a-4a47-957e-6b4e79d3cc78
+2025-05-23 19:00:43,263 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:00:43,263 - transcriber - INFO - Checking status for transcript 8696806e-9f2a-4a47-957e-6b4e79d3cc78
+2025-05-23 19:00:43,489 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:00:46,512 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:00:46,512 - transcriber - INFO - Checking status for transcript 8696806e-9f2a-4a47-957e-6b4e79d3cc78
+2025-05-23 19:00:46,753 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:00:49,755 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:00:49,755 - transcriber - INFO - Checking status for transcript 8696806e-9f2a-4a47-957e-6b4e79d3cc78
+2025-05-23 19:00:50,198 - transcriber - INFO - Transcript status: completed
+2025-05-23 19:00:53,202 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 19:00:53,458 - aiogram.event - INFO - Update id=809985220 is handled. Duration 184766 ms by bot id=7509393981
+2025-05-23 19:10:37,059 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 19:10:37,310 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:10:42,857 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 19:10:42,863 - __main__ - INFO - Bot started
+2025-05-23 19:10:42,863 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:10:42,863 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 19:10:43,029 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:15:35,594 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:15:43,855 - transcriber - INFO - Starting process_file for temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:15:43,855 - transcriber - INFO - Processing audio file
+2025-05-23 19:15:43,856 - transcriber - INFO - Uploading file: temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:15:43,856 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:43,857 - transcriber - INFO - Starting file upload
+2025-05-23 19:15:48,198 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/d8305f37-70d9-4974-bd88-59db122eed9e
+2025-05-23 19:15:48,199 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/d8305f37-70d9-4974-bd88-59db122eed9e
+2025-05-23 19:15:48,199 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:48,200 - transcriber - INFO - Creating transcript request
+2025-05-23 19:15:48,468 - transcriber - INFO - Got transcript ID: 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:15:48,468 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:48,469 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:15:48,683 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:15:51,700 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:51,700 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:15:51,917 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:15:54,913 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:54,914 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:15:55,126 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:15:58,126 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:15:58,127 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:15:58,341 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:16:01,360 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:16:01,361 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:16:01,584 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:16:04,596 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:16:04,597 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:16:04,805 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:16:07,805 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:16:07,805 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:16:08,021 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:16:11,031 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:16:11,032 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:16:11,313 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:16:14,319 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:16:14,319 - transcriber - INFO - Checking status for transcript 3e3bda56-eb19-4ce2-9c5e-6c6d6470303f
+2025-05-23 19:16:15,444 - transcriber - INFO - Transcript status: completed
+2025-05-23 19:16:18,456 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 19:16:18,514 - __main__ - ERROR - Error in handle_google_drive: Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 240, in handle_google_drive
+    await bot.send_document(
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2458, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 441, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 257, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 179, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+2025-05-23 19:16:18,669 - aiogram.event - INFO - Update id=809985221 is handled. Duration 333547 ms by bot id=7509393981
+2025-05-23 19:19:08,071 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 19:19:08,328 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:19:13,032 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 19:19:13,037 - __main__ - INFO - Bot started
+2025-05-23 19:19:13,038 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:19:13,038 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 19:19:13,192 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:24:00,551 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:24:08,457 - transcriber - INFO - Starting process_file for temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:24:08,459 - transcriber - INFO - Processing audio file
+2025-05-23 19:24:08,459 - transcriber - INFO - Uploading file: temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:24:08,460 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:08,460 - transcriber - INFO - Starting file upload
+2025-05-23 19:24:12,773 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/be814e39-960c-4b5c-af7b-c09c9bd83b25
+2025-05-23 19:24:12,774 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/be814e39-960c-4b5c-af7b-c09c9bd83b25
+2025-05-23 19:24:12,774 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:12,774 - transcriber - INFO - Creating transcript request
+2025-05-23 19:24:13,041 - transcriber - INFO - Got transcript ID: c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:13,042 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:13,042 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:13,258 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:16,272 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:16,273 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:16,532 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:19,548 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:19,548 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:19,762 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:22,772 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:22,772 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:22,981 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:25,980 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:25,981 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:26,276 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:29,280 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:29,280 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:29,489 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:32,501 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:32,502 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:32,711 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:35,712 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:35,712 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:35,948 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:24:38,952 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:24:38,952 - transcriber - INFO - Checking status for transcript c75068dd-e44c-496f-8f39-af070519ac2a
+2025-05-23 19:24:40,037 - transcriber - INFO - Transcript status: completed
+2025-05-23 19:24:43,049 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 19:24:43,074 - __main__ - ERROR - Error in handle_google_drive: 2 validation errors for SendDocument
+document.is-instance[InputFile]
+  Input should be an instance of InputFile [type=is_instance_of, input_value=<_io.BufferedReader name=...aHEUcYurcY9Izp3wFs.txt'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.5/v/is_instance_of
+document.str
+  Input should be a valid string [type=string_type, input_value=<_io.BufferedReader name=...aHEUcYurcY9Izp3wFs.txt'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+Traceback (most recent call last):
+  File "C:\Bohdan\Job\Visotsky\TranscibationBot\BBTranscribationBot\bot.py", line 242, in handle_google_drive
+    await bot.send_document(
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2442, in send_document
+    call = SendDocument(
+           ^^^^^^^^^^^^^
+  File "C:\Users\bogda\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for SendDocument
+document.is-instance[InputFile]
+  Input should be an instance of InputFile [type=is_instance_of, input_value=<_io.BufferedReader name=...aHEUcYurcY9Izp3wFs.txt'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.5/v/is_instance_of
+document.str
+  Input should be a valid string [type=string_type, input_value=<_io.BufferedReader name=...aHEUcYurcY9Izp3wFs.txt'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+2025-05-23 19:24:43,287 - aiogram.event - INFO - Update id=809985222 is handled. Duration 323312 ms by bot id=7509393981
+2025-05-23 19:26:44,445 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 19:26:44,700 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:26:48,970 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-23 19:26:48,976 - __main__ - INFO - Bot started
+2025-05-23 19:26:48,976 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:26:48,977 - aiogram.dispatcher - INFO - Start polling
+2025-05-23 19:26:49,116 - aiogram.dispatcher - INFO - Run polling for bot @bb_trans_bot id=7509393981 - 'BBTransBot'
+2025-05-23 19:31:32,052 - transcriber - INFO - Transcriber initialized with base_url: https://api.assemblyai.com/v2
+2025-05-23 19:31:40,012 - transcriber - INFO - Starting process_file for temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:31:40,013 - transcriber - INFO - Processing audio file
+2025-05-23 19:31:40,013 - transcriber - INFO - Uploading file: temp\Copy of ec7022c56d94ff3df4d42643bfadce23.mp3
+2025-05-23 19:31:40,014 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:40,014 - transcriber - INFO - Starting file upload
+2025-05-23 19:31:44,518 - transcriber - INFO - File uploaded: https://cdn.assemblyai.com/upload/a8b69b82-4702-43b6-a259-c5f1aa255935
+2025-05-23 19:31:44,519 - transcriber - INFO - Starting transcribe_audio for URL: https://cdn.assemblyai.com/upload/a8b69b82-4702-43b6-a259-c5f1aa255935
+2025-05-23 19:31:44,519 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:44,520 - transcriber - INFO - Creating transcript request
+2025-05-23 19:31:44,812 - transcriber - INFO - Got transcript ID: 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:44,812 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:44,813 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:45,020 - transcriber - INFO - Transcript status: queued
+2025-05-23 19:31:48,036 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:48,037 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:48,246 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:31:51,258 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:51,259 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:51,465 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:31:54,465 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:54,465 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:54,678 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:31:57,704 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:31:57,704 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:31:57,935 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:32:00,941 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:32:00,942 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:32:01,153 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:32:04,168 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:32:04,169 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:32:04,381 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:32:07,395 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:32:07,395 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:32:07,605 - transcriber - INFO - Transcript status: processing
+2025-05-23 19:32:10,606 - transcriber - INFO - Attempt 1 of 3
+2025-05-23 19:32:10,607 - transcriber - INFO - Checking status for transcript 20d54d40-5fae-4955-bd2e-a41ed50bd9c1
+2025-05-23 19:32:11,717 - transcriber - INFO - Transcript status: completed
+2025-05-23 19:32:14,719 - __main__ - ERROR - Error in progress callback: 
+2025-05-23 19:32:15,038 - aiogram.event - INFO - Update id=809985223 is handled. Duration 315500 ms by bot id=7509393981
+2025-05-23 19:33:47,159 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-23 19:33:47,415 - aiogram.dispatcher - INFO - Polling stopped for bot @bb_trans_bot id=7509393981 - 'BBTransBot'

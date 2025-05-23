@@ -3,16 +3,24 @@ import logging
 import sys
 import os
 import re
+import io
+import subprocess
 import aiohttp
 import tempfile
 from urllib.parse import urlparse, parse_qs, urljoin
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaIoBaseDownload
 
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters.command import Command
-from aiogram.types import Message, ContentType
+from aiogram.types import Message, ContentType, FSInputFile
 
-from config import BOT_TOKEN, MESSAGES, SUPPORTED_FORMATS, MAX_FILE_SIZE, TEMP_DIR
+from config import BOT_TOKEN, MESSAGES, SUPPORTED_FORMATS, MAX_FILE_SIZE, TEMP_DIR, GOOGLE_APPLICATION_CREDENTIALS
 from transcriber import Transcriber
+
+# Максимум символов в одном сообщении Telegram
+TELEGRAM_TEXT_LIMIT = 4096
 
 # Логирование
 logging.basicConfig(
@@ -29,6 +37,35 @@ os.makedirs(TEMP_DIR, exist_ok=True)
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
+
+# --- Инициализация Drive API клиента ---
+SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+_creds = service_account.Credentials.from_service_account_file(
+    GOOGLE_APPLICATION_CREDENTIALS,
+    scopes=SCOPES
+)
+drive_service = build('drive', 'v3', credentials=_creds)
+
+
+def _sync_download(file_id: str) -> io.BytesIO:
+    """Скачивает файл из Drive синхронно, возвращает BytesIO."""
+    request = drive_service.files().get_media(fileId=file_id)
+    buffer = io.BytesIO()
+    downloader = MediaIoBaseDownload(buffer, request, chunksize=2 * 1024 * 1024)
+    done = False
+    while not done:
+        status, done = downloader.next_chunk()
+        # при желании: print(f"Download {status.progress() * 100:.1f}%")
+    buffer.seek(0)
+    return buffer
+
+
+async def download_from_drive(file_id: str) -> io.BytesIO:
+    """
+    Обёртка для _sync_download, чтобы не блокировать event loop.
+    """
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(None, _sync_download, file_id)
 
 # Создаем единый экземпляр Transcriber для прогресс-бара
 _progress_transcriber = None
@@ -132,6 +169,91 @@ def make_callback(chat_id: int, message_id: int, loop: asyncio.AbstractEventLoop
                     logger.error(f"Error in progress callback: {e}")
     
     return _cb
+
+@dp.message(F.text.regexp(r'https?://drive\.google\.com/.*'))
+async def handle_google_drive(message: Message):
+    """
+    Скачиваем файл из Google Drive, транскрибируем и публикуем результат.
+    """
+    # 1) Извлекаем file_id
+    m = re.search(r'(?:file/d/|id=)([A-Za-z0-9_-]+)', message.text)
+    if not m:
+        return await message.reply("Не удалось распознать ID файла в ссылке.")
+    file_id = m.group(1)
+
+    # 2) Стартовое сообщение и статус
+    status_msg = await message.reply("Скачиваю файл из Google Drive…")
+
+    local_path = None
+    try:
+        # 3) Берём метаданные, чтобы получить имя и mimeType
+        meta = drive_service.files().get(
+            fileId=file_id,
+            fields="name,mimeType"
+        ).execute()
+        filename = meta.get("name", file_id)
+        mime = meta.get("mimeType", "")
+        is_video = mime.startswith("video/")
+
+        # 4) Скачиваем в память и сохраняем в temp
+        buf = await download_from_drive(file_id)  # :contentReference[oaicite:0]{index=0}
+        os.makedirs(TEMP_DIR, exist_ok=True)
+        local_path = os.path.join(TEMP_DIR, filename)
+        with open(local_path, "wb") as f:
+            f.write(buf.getvalue())
+
+        # 5) Обновляем прогресс загрузки
+        await update_progress(message.chat.id, status_msg.message_id, 5)
+
+        # 6) Готовим колбэк и запускаем транскрипцию
+        loop = asyncio.get_event_loop()
+        progress_cb = make_callback(message.chat.id, status_msg.message_id, loop)
+        transcriber = await Transcriber.create()
+
+        try:
+            if is_video:
+                # извлекаем аудио и транскрибируем его
+                audio_path = await transcriber.extract_audio(local_path)
+                text = await transcriber.process_file(audio_path, progress_cb)
+                if os.path.exists(audio_path):
+                    os.remove(audio_path)
+            else:
+                text = await transcriber.process_file(local_path, progress_cb)
+        finally:
+            # завершаем работу транскрайбера
+            await transcriber.__aexit__(None, None, None)
+
+        # 7) Отправляем результат или ошибку
+        if not text or text.isspace():
+            await message.reply(
+                MESSAGES["processing_error"] + "\n❌ Не удалось распознать текст"
+            )
+        else:
+            if len(text) <= TELEGRAM_TEXT_LIMIT:
+                await message.reply(text)
+            else:
+                txt_filename = f"transcript_{file_id}.txt"
+                txt_path = os.path.join(TEMP_DIR, txt_filename)
+                with open(txt_path, "w", encoding="utf-8") as txt_file:
+                    txt_file.write(text)
+
+                # Отправляем файл как документ
+                await bot.send_document(
+                    chat_id=message.chat.id,
+                    document=FSInputFile(txt_path),
+                    caption="📄 Результат транскрипции"
+                )
+                os.remove(txt_path)
+            await update_progress(message.chat.id, status_msg.message_id, 100)
+    except Exception as e:
+        logger.error(f"Error in handle_google_drive: {e}", exc_info=True)
+        await status_msg.edit_text(f"❌ Ошибка: {str(e).splitlines()[0]}")
+    finally:
+        # 8) Убираем временный файл
+        if local_path and os.path.exists(local_path):
+            os.remove(local_path)
+
+
 
 @dp.message(Command("start"))
 async def cmd_start(message: Message):
